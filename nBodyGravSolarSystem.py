@@ -36,7 +36,7 @@ def Energy(body):
 
 def getplanets(body):
     datainput = []
-    datainput = genfromtxt("C:\Users\Gaurav\Desktop\Ph 740\Assignment 2\horizons.txt",delimiter = ',',dtype = None) 
+    datainput = genfromtxt("horizons.txt",delimiter = ',',dtype = None) 
     x=0
     for rows in body:
         body[x].name = datainput[x][0]
